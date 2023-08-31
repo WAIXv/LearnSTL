@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+/.idea
+/.vs
+/LearnSTL/x64
+
 # Compiled Object files
 *.slo
 *.lo
