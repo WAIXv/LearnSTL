@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <iostream>
 
 template<typename T>
 class Lazy_Singleton
@@ -18,3 +19,13 @@ T& Lazy_Singleton<T>::GetInstance()
     static T Instance;
     return Instance;
 }
+
+
+//Struct to test Singleton
+struct playerController
+{
+    playerController()
+    {
+        std::cout<<"playerController Construct"<< std::endl;
+    }
+};

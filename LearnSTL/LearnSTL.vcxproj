@@ -128,9 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LearnSTL.cpp" />
+    <ClCompile Include="Source\WaiString.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LazySingleton.h" />
+    <ClInclude Include="Source\LazySingleton.h" />
+    <ClInclude Include="Source\SortAlgorithms.h" />
+    <ClInclude Include="Source\WaiGameObject.h" />
+    <ClInclude Include="Source\WaiString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
